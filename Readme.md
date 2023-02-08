@@ -237,13 +237,12 @@
 
 ### Output
 
-    let a = document.querySelector('.col-sm-offset-1 span.login-btn-text')
-    a.addEventListener('mouseenter' , () => { a.style.backgroundColor = '#E21717'})
-    a.addEventListener('mouseleave' , () => { a.style.backgroundColor = '#FECC4C'})
-
 ![Output](./Pic19.png)
 
 ### Answer
+    let a = document.querySelector('.col-sm-offset-1 span.login-btn-text')
+    a.addEventListener('mouseenter' , () => { a.style.backgroundColor = '#E21717'})
+    a.addEventListener('mouseleave' , () => { a.style.backgroundColor = '#FECC4C'})
 
 11. Webiste Name: [realme](https://www.realme.com/in/)
 
@@ -289,6 +288,8 @@
 
 ### Answer
 
+    document.querySelector('.section-button').style.background-Color = 'blue'
+
 13. Webiste Name: [Hackerrank](https://www.hackerrank.com/)
 
 ### Topics
@@ -308,6 +309,7 @@ Target the top description and change “Matching developers with great companie
 ![Output](./Pic25.png)
 
 ### Answer
+    document.querySelector('.home22-intro-title').innerHTML = 'JSBOOTCAMP'
 
 14. Webiste Name: [Asus](https://www.asus.com/in/)
 
@@ -373,7 +375,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Answer
 
-    
+    document.querySelector('.section-title_title__VEDfK span').innerHTML = 'Start with Scratch'
 
 17. Webiste Name: [Sony](https://www.sony.co.in/)
 
